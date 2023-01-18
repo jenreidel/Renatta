@@ -1,0 +1,147 @@
+/*GENERALES*/
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #CFCCC9;
+}
+#ir-arriba{
+    border: outset #6b705c 0.5px;
+}
+footer{
+    background-color: #CFCCC9;
+    color: #5C604F;
+}
+.no-bullet{
+    list-style: none;
+}
+a{
+    color: #5C604F;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body div{
+    font-family: 'Poppins', sans-serif;
+}
+footer div{
+    font-family: 'Poppins', sans-serif;
+}
+body main ul li{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../IMG/depositphoto-16.jpg);
+    color: #5C604F;
+}
+.frases_index{
+    text-align: center;
+}
+.titulos{
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin: 20px;
+}
+.img-bordered{
+    border-radius: 3%;
+}
+.arriba-red{
+    border-radius: 10%;
+    position: relative;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.socalo-peque{
+    font-size: small;
+}
+.bloque_frases{
+    margin: 20px;
+}
+body header nav ul li{
+    padding: 6px;
+    margin: 7px;
+}
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+body div p{
+    margin: 20px;
+}
+.foto-dueñas{
+    border-radius: 3%;
+    border: outset #6b705c 0.5px;
+    margin-left: 20px;
+}
+.fotos-pestañas{
+    border-radius: 3%;
+    border: outset #6b705c 0.5px;
+    margin-left: 20px;
+}
+body main div ul h4{
+    margin: 20px;
+}
+body main div ul ul{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+body main div ul li{
+    margin: 20px;
+}
+body main ul{
+    margin: 20px;
+}
+body main div h3{
+    margin: 20px;
+}
+.cont-pestañas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-flex{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;   
+}
+.formulario-mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-p-nosotras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.parrafo-nosotras{
+    width: 700px;
+}
+.footer-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+/*NO FUNCIONA*/
+.redes-horizontal{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+/*animaciones*/
+
+
+
+
+/*responsive*/
+
+@media (min-width: 500px) {
+    
+}
