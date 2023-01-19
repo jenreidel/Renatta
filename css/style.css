@@ -133,15 +133,37 @@ body main div h3{
     flex-direction: row;
     list-style: none;
 }
+.list-center{
+    width: 35%;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container.fluid{
+    justify-content: space-around;
+}
 
 
 /*animaciones*/
 
 
 
-
+/*NO FUNCIONA*/
 /*responsive*/
 
-@media (min-width: 500px) {
-    
+@media screen and (max-width: 576px) {
+    .img-p-nosotras{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .formulario-mapa{
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
