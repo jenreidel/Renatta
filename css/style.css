@@ -31,7 +31,7 @@ body main ul li{
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(../IMG/depositphoto-16.jpg);
+    background-image: url(../img/depositphoto-16.jpg);
     color: #5C604F;
 }
 .frases_index{
@@ -58,7 +58,6 @@ body{
     bottom: 65px;
     right: 23px;
 }
-
 .socalo-peque{
     font-size: small;
 }
@@ -66,8 +65,8 @@ body{
     margin: 20px;
 }
 body header nav ul li{
-    padding: 6px;
-    margin: 7px;
+    padding: 4px;
+    margin: 3px;
 }
 .nav-flex{
     display: flex;
@@ -145,6 +144,14 @@ body main div h3{
 .card-flex{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+.NavBar{
+    display: flex;
     justify-content: space-around;
 }
 
