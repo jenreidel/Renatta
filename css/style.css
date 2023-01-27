@@ -53,6 +53,8 @@ body{
     font-weight: 400;
     text-align: center;
     margin: 20px;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 .img-bordered{
     border-radius: 3%;
@@ -90,6 +92,9 @@ body div p{
     margin: 20px;
 }
 .foto-dueñas{
+    
+}
+.foto-dueñas2{
     margin-left: 4%;
 }
 .fotos-pestañas{
