@@ -76,7 +76,8 @@ body{
     font-size: small;
 }
 .bloque_frases{
-    margin: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 body header nav ul li{
     padding: 4px;
