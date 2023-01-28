@@ -91,9 +91,6 @@ body header nav ul li{
 body div p{
     margin: 20px;
 }
-.foto-dueñas{
-    
-}
 .foto-dueñas2{
     margin-left: 4%;
 }
@@ -150,27 +147,19 @@ body main div h3{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
+    padding: 3%;
 }
-
-
-/*NO FUNCIONA*/
-.list-group-item{
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    justify-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.card-flex{
+.card-flex1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 5%;
 }
-.nav-link:hover{
-    color: white;
-    text-decoration: underline;
+.card-flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
 }
 .NavBar{
     display: flex;
@@ -181,11 +170,23 @@ body main div h3{
     flex-direction: row;
     justify-content: space;
 }
-
+.cejas-centrado{
+    display: flex; 
+    justify-content: center;
+}
+.list-group-item{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
 /*animaciones*/
 
-
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
 
 /*responsive*/
 
@@ -197,6 +198,15 @@ body main div h3{
     }
     .foto-dueñas{
         width: auto;
+        margin: 0 auto;
+    }
+    .foto-dueñas2{
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    .img-p-nosotras{
+        margin-bottom: 0;
     }
     .parrafo-nosotras{
         width: auto;
